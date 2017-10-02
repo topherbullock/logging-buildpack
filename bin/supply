@@ -1,0 +1,19 @@
+#!/bin/bash
+
+buildpack_root=$(dirname $(dirname $0))
+
+build_dir=$1
+cache_dir=$2
+deps_dir=$3
+index=$4
+
+echo "================="
+echo "   /bin/supply   "
+echo "================="
+
+echo "  $build_dir   "
+echo "  $cache_dir   "
+echo "  $deps_dir    "
+echo "  $index       "
+
+
